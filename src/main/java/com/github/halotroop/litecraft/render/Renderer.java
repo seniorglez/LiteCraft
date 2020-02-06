@@ -1,8 +1,6 @@
 package com.github.halotroop.litecraft.render;
 
-import org.lwjgl.opengl.GL11;
-import org.lwjgl.opengl.GL15;
-import org.lwjgl.opengl.GL20;
+import org.lwjgl.opengl.*;
 
 import com.github.halotroop.litecraft.render.model.Model;
 import com.github.halotroop.litecraft.render.model.Vertex;
@@ -15,13 +13,13 @@ public class Renderer
 	{
 		init();
 		model = new Model();
-		Vertex[] vertices =
+		Vertex[] verts =
 		{
 			new Vertex(-1, -1, 0),
 			new Vertex(1, -1, 0),
 			new Vertex(0, 1, 0)
 		};
-		model.bufferVertices(vertices);
+		model.bufferVertices(verts);
 	}
 
 	public void render()

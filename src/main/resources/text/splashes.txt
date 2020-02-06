@@ -32,6 +32,7 @@ Featuring Dante from the Devil May Cry Series!
 Forget the coremods!
 Fully 2D!
 Go the fuck to sleep.
+GPL v3.0
 Happy birthday!
 HeartGold
 Horse Armour at no extra cost!
@@ -71,7 +72,6 @@ Try turning it off and back on again!
 U
 Use at your own risk!
 Vegan-friendly!
-WTFPL
 Watch out for dragons!
 We don't need no education.
 What was that?
